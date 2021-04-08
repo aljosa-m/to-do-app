@@ -1,0 +1,19 @@
+.Card {
+  border-radius: 10px;
+  margin: 10px;
+  background-color: #f0f7ee;
+}
+
+.CardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #afdedc;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 10px;
+}
+
+.CardBody {
+  padding: 10px;
+}
