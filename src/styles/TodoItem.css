@@ -16,4 +16,34 @@
 
 .CardBody {
   padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  padding: 2px;
+  color: #ffffff;
+}
+.Circle--primary {
+  background-color: #007bff;
+}
+
+.Circle--danger {
+  background-color: #dc3545;
+}
+
+.DeleteButton {
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+.Show {
+  display: block;
+}
+
+.Hide {
+  display: none;
 }
