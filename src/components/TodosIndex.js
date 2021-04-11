@@ -27,7 +27,6 @@ class TodosIndex extends Component {
 
   renderTodos(todoFilter) {
     let todos;
-    console.log('todoFilter', todoFilter);
     switch (todoFilter) {
       case 'completed':
         todos = this.props.todos.todos.filter(todo => todo.completed === true);
