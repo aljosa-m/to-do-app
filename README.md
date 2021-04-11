@@ -1,10 +1,10 @@
 # Getting Started with TODO APP
 
 ## How to start the project:
-`git clone https://github.com/aljosa-m/to-do-app.git`
-`cd to-do-app`
-`npm install`
-`npm start`
+- `git clone https://github.com/aljosa-m/to-do-app.git`
+- `cd to-do-app`
+- `npm install`
+- `npm start`
 
 ## User can do the following:
 - Create a new todo (will make API call to https://jsonplaceholder.typicode.com/todos)
